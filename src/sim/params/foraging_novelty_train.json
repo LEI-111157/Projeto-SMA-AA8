@@ -1,0 +1,21 @@
+{
+  "env": "foraging_ninho",
+  "agent_type": "novelty",
+  "mode": "train",
+  "width": 8,
+  "height": 8,
+  "obstacle_ratio": 0.12,
+  "n_recursos": 6,
+  "seed": 42,
+  "n_episodios": 5000,
+  "max_passos": 150,
+  "policy_path": "outputs/foraging_novelty_policy.pkl",
+  "novelty": {
+    "k": 10,
+    "archive_add_threshold": 0.6,
+    "sigma": 0.40,
+    "random_policy_prob": 0.35,
+    "archive_max": 600,
+    "elite_keep": 12
+  }
+}

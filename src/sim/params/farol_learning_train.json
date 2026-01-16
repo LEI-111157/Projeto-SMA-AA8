@@ -1,0 +1,19 @@
+{
+  "env": "farol",
+  "agent_type": "learning",
+  "mode": "train",
+  "width": 8,
+  "height": 8,
+  "obstacle_ratio": 0.18,
+  "seed": 42,
+  "n_episodios": 2000,
+  "max_passos": 150,
+  "qtable_path": "outputs/farol_q.pkl",
+  "learning": {
+    "alpha": 0.1,
+    "gamma": 0.95,
+    "epsilon_start": 0.05,
+    "epsilon_max": 0.95,
+    "epsilon_growth": 1.005
+  }
+}

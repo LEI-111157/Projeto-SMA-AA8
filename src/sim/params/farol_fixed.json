@@ -1,0 +1,11 @@
+{
+  "env": "farol",
+  "agent_type": "fixed",
+  "mode": "test",
+  "width": 8,
+  "height": 8,
+  "obstacle_ratio": 0.18,
+  "seed": 42,
+  "n_episodios": 100,
+  "max_passos": 150
+}

@@ -1,0 +1,13 @@
+{
+  "env": "foraging_ninho",
+  "agent_type": "novelty",
+  "mode": "test",
+  "width": 8,
+  "height": 8,
+  "obstacle_ratio": 0.12,
+  "n_recursos": 6,
+  "seed": 42,
+  "n_episodios": 100,
+  "max_passos": 150,
+  "policy_path": "outputs/foraging_novelty_policy.pkl"
+}
