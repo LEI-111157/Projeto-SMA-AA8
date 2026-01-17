@@ -1,4 +1,4 @@
-# batch_eval_foraging.py
+
 import json
 import os
 import tempfile
