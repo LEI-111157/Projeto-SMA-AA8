@@ -1,4 +1,4 @@
-# sim/agente_novelty.py
+
 import pickle
 import random
 import json
