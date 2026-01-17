@@ -28,5 +28,4 @@ class Agente(ABC):
         self._ultima_recompensa = recompensa
 
     def comunica(self, mensagem: str, de_agente: "Agente") -> None:
-        # para já não usamos (entra quando integrarmos MAS/FIPA na simulação)
         pass
